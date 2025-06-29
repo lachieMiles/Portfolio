@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(255, 183, 50), white);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 800px;
+    flex: 1;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  img.profile {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #ccc;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h1, h2 {
+    color: #222;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+
+  .social-links {
+    margin-top: 20px;
+  }
+
+  .social-links a {
+    margin: 0 15px;
+    display: inline-block;
+  }
+
+  .social-links img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+  }
+
+  .email-line img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+  }
+
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 40px 10px;
+    }
+  
+    .navbar a {
+      margin: 8px 10px;
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
